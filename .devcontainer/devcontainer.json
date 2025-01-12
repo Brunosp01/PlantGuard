@@ -1,0 +1,13 @@
+{
+  "name": "PlantGuard DevContainer",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-14",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": "npm install",
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ],
+  "forwardPorts": [3000]
+}
